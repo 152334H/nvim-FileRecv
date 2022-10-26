@@ -1,0 +1,14 @@
+<head>
+  <link rel="stylesheet" href="/static/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<form action="/upload" method="post" enctype="multipart/form-data" id="upload-form">
+		<div class=upload-wrapper style="flex-direction: column; display: flex">
+			<input type="file" id="myfile" name="myfile" hidden class=inputfile>
+			<button class="btn" id=upload-button>Upload a file</button>
+		</div>
+		<button type=submit id=submit-button hidden></button>
+	</form>
+  <script src="/static/index.js"></script>
+</body>
