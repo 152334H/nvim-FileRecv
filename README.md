@@ -2,6 +2,7 @@
 Hacky script to "send a file to (n)vim"
 
 ## Installation
+0. install flask v2.x globally
 1. git clone this to `$HOME`
 2. add the following line to `.vimrc`:
 ```vimrc
