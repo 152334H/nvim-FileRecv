@@ -5,7 +5,7 @@ Hacky script to "send a file to (n)vim"
 1. git clone this to `$HOME`
 2. add the following line to `.vimrc`:
 ```vimrc
-:command FileRecv execute '!$HOME/FileRecv/run.sh "%"' | r!tail -1 /tmp/nvim-file-recv
+:command FileRecv execute '!$HOME/nvim-FileRecv/run.sh "%"' | r!tail -1 /tmp/nvim-file-recv
 ```
 
 ## Behaviour
