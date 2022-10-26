@@ -27,5 +27,5 @@ Highly so.
 #### It doesn't work!
 works on my machine
 
-### Have you seen <project>? It does what this repo does but way cooler
+### Have you seen `<project>`? It does what this repo does but way cooler
 I have not; please send it my way!
